@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  align-content: center;
+  margin: 0;
+}
+.light-theme {
+  background: #fff;
+  color: #333;
+}
+.dark-theme {
+  background: #000;
+  color: #ddd;
+}
+
+#search {
+  margin: 0.5rem;
+}
+#current {
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 1rem;
+  span {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 5rem;
+    margin-top: 20rem;
+  }
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid lightgray;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+td:first-child {
+  font-weight: bold;
+}
